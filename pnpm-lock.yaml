@@ -91,6 +91,37 @@ importers:
 
   .config/typescript: {}
 
+  packages/body-parser:
+    dependencies:
+      body-parser:
+        specifier: ^2.2.2
+        version: 2.2.2
+      express:
+        specifier: ^5.2.1
+        version: 5.2.1
+      zod:
+        specifier: ^4.3.6
+        version: 4.3.6
+    devDependencies:
+      '@types/body-parser':
+        specifier: ^1.19.6
+        version: 1.19.6
+      '@types/express':
+        specifier: ^5.0.6
+        version: 5.0.6
+      '@types/node':
+        specifier: ^25.0.10
+        version: 25.1.0
+      '@wnodex/typescript-config':
+        specifier: workspace:*
+        version: link:../../.config/typescript
+      rolldown:
+        specifier: 1.0.0-rc.1
+        version: 1.0.0-rc.1
+      typescript:
+        specifier: 5.9.2
+        version: 5.9.2
+
   packages/compression:
     dependencies:
       compression:
