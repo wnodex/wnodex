@@ -33,9 +33,11 @@
     "build": "rolldown -c && tsc"
   },
   "dependencies": {
+    "express": "^5.2.1",
     "zod": "^4.3.6"
   },
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/node": "^25.0.10",
     "@wnodex/typescript-config": "workspace:*",
     "rolldown": "1.0.0-rc.1",
