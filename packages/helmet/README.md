@@ -1,8 +1,10 @@
-# @wnodex/compression
+# @wnodex/helmet
 
-wnodex compression middleware
+wnodex helmet middleware
 
---- ## Table of Content
+---
+
+## Table of Content
 
 - [License](#license)
 

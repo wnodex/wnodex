@@ -1,8 +1,10 @@
-# @wnodex/compression
+# @wnodex/cors
 
-wnodex compression middleware
+wnodex cors middleware
 
---- ## Table of Content
+---
+
+## Table of Content
 
 - [License](#license)
 

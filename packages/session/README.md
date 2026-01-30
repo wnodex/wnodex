@@ -1,6 +1,6 @@
-# @wnodex/rate-limit
+# @wnodex/session
 
-wnodex rate-limit middleware
+wnodex session middleware
 
 ---
 

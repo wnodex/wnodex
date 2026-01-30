@@ -1,8 +1,10 @@
-# @wnodex/compression
+# @wnodex/passport
 
-wnodex compression middleware
+wnodex passport middleware
 
---- ## Table of Content
+---
+
+## Table of Content
 
 - [License](#license)
 

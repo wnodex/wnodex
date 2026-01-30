@@ -1,8 +1,10 @@
-# @wnodex/compression
+# @wnodex/hpp
 
-wnodex compression middleware
+wnodex hpp middleware
 
---- ## Table of Content
+---
+
+## Table of Content
 
 - [License](#license)
 
