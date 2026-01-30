@@ -18,6 +18,5 @@ export const configureCompression = (
   }
 
   logger.info('Compression is enabled');
-
-  app.use(compression());
+  return app.use(compression());
 };

@@ -18,9 +18,10 @@ export const configureCookieParser = (
       return;
     }
 
+    logger.info('Cookie parser is enabled');
     return app.use(cookieParser());
   }
 
-  app.use(cookieParser(options.secret, options.options));
   logger.info('Cookie parser is enabled');
+  return app.use(cookieParser(options.secret, options.options));
 };
