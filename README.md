@@ -1,6 +1,8 @@
+![wnodex banner](./images/gh-banner.webp)
+
 # wnodex
 
-*Web Node Express*: an extensible and robust express.js server class designed for effortless customization and rapid deployment.
+_Web Node Express_: an extensible and robust express.js server class designed for effortless customization and rapid deployment.
 
 ## License
 
