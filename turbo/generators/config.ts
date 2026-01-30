@@ -13,7 +13,7 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
         type: 'input',
         name: 'directory',
         message:
-          'The name of the directory that will be created inside packages (e.g. spellbookx-node-lib):',
+          'The name of the directory that will be created inside packages (e.g. wnodex-node-lib):',
         validate: (input: string) => {
           if (input.includes(' ')) return 'The name cannot contain spaces';
           if (!input) return 'The directory name is required';
@@ -23,7 +23,7 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
       {
         type: 'input',
         name: 'name',
-        message: 'Library name (e.g. @spellbookx/node-lib):',
+        message: 'Library name (e.g. @wnodex/node-lib):',
         validate: (input: string) => {
           if (input.includes(' ')) return 'The name cannot contain spaces';
           if (!input) return 'The name is required';
@@ -33,7 +33,7 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
       {
         type: 'input',
         name: 'description',
-        message: 'Library description (e.g. Spellbookx Node library for...):',
+        message: 'Library description (e.g. wnodex Node library for...):',
         validate: (input: string) => {
           if (!input) return 'The description is required';
           return true;
@@ -43,7 +43,7 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
     actions: [
       {
         type: 'addMany',
-        destination: 'packages/{{name}}',
+        destination: 'packages/{{directory}}',
         base: 'templates/node-lib',
         templateFiles: 'templates/node-lib/**',
       },

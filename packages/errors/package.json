@@ -1,10 +1,11 @@
 {
-  "name": "wnodex",
+  "name": "@wnodex/errors",
   "version": "0.0.0",
   "private": false,
-  "description": "Web Node Express: an extensible and robust express.js server class designed for effortless customization and rapid deployment",
+  "description": "wnodex custom application errors",
   "keywords": [
-    "wnodex"
+    "wnodex",
+    "errors"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {
@@ -13,7 +14,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wnodex/wnodex.git",
-    "directory": "packages/wnodex"
+    "directory": "packages/errors"
   },
   "license": "MIT",
   "type": "module",
