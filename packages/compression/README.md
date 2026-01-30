@@ -1,10 +1,8 @@
-# {{name}}
+# @wnodex/compression
 
-{{description}}
+wnodex compression middleware
 
----
-
-## Table of Content
+--- ## Table of Content
 
 - [License](#license)
 
