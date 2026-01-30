@@ -12,7 +12,7 @@ const require = _createRequire(import.meta.url);
 
 export default defineConfig([
   {
-    input: ['src/index.ts', 'src/types.ts'],
+    input: ['src/index.ts'],
     output: {
       format: 'esm',
       dir: 'dist',
