@@ -14,14 +14,14 @@ export const configureCookieParser = (
 
   if (typeof options === 'boolean') {
     if (!options) {
-      logger.info('Cookie parser is disabled');
+      logger.info('Cookie parser disabled');
       return;
     }
 
-    logger.info('Cookie parser is enabled');
+    logger.info('Cookie parser enabled');
     return app.use(cookieParser());
   }
 
-  logger.info('Cookie parser is enabled');
+  logger.info('Cookie parser enabled');
   return app.use(cookieParser(options.secret, options.options));
 };

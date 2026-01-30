@@ -1,0 +1,51 @@
+{
+  "name": "@wnodex/hpp",
+  "version": "0.0.0",
+  "private": false,
+  "description": "wnodex hpp middleware",
+  "keywords": [
+    "wnodex"
+  ],
+  "homepage": "https://github.com/wnodex/wnodex#readme",
+  "bugs": {
+    "url": "https://github.com/wnodex/wnodex/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnodex/wnodex.git",
+    "directory": "packages/hpp"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rolldown -c && tsc"
+  },
+  "dependencies": {
+    "@types/hpp": "^0.2.7",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.10",
+    "@wnodex/typescript-config": "workspace:*",
+    "rolldown": "1.0.0-rc.1",
+    "typescript": "5.9.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

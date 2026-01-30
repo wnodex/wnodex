@@ -13,10 +13,10 @@ export const configureCompression = (
   const options = parseCompressionOptions(config);
 
   if (!options) {
-    logger.info('Compression is disabled');
+    logger.info('Compression disabled');
     return;
   }
 
-  logger.info('Compression is enabled');
+  logger.info('Compression enabled');
   return app.use(compression());
 };

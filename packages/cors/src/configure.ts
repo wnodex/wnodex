@@ -11,14 +11,14 @@ export const configureCors = (app: Application, config: CorsOptionsInput) => {
 
   if (typeof options === 'boolean') {
     if (!options) {
-      logger.info('CORS are disabled');
+      logger.info('CORS disabled');
       return;
     }
 
-    logger.info('CORS are enabled');
+    logger.info('CORS enabled');
     return app.use(cors());
   }
 
-  logger.info('CORS are enabled');
+  logger.info('CORS enabled');
   return app.use(cors({ ...options }));
 };
