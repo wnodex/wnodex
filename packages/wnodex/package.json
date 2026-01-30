@@ -1,19 +1,19 @@
 {
-  "name": "{{name}}",
+  "name": "wnodex",
   "version": "0.0.0",
   "private": false,
-  "description": "{{description}}",
+  "description": "Web Node Express: an extensible and robust express.js server class designed for effortless customization and rapid deployment",
   "keywords": [
-    "spellbookx",
+    "wnodex",
   ],
-  "homepage": "https://github.com/spellbookx/spellbookx#readme",
+  "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {
-    "url": "https://github.com/spellbookx/spellbookx/issues"
+    "url": "https://github.com/wnodex/wnodex/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spellbookx/spellbookx.git",
-    "directory": "packages/{{directory}}"
+    "url": "git+https://github.com/wnodex/wnodex.git",
+    "directory": "packages/wnodex"
   },
   "license": "MIT",
   "type": "module",
@@ -29,12 +29,11 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "rolldown -c",
-    "postbuild": "tsc"
+    "build": "rolldown -c && tsc"
   },
   "dependencies": {},
   "devDependencies": {
-    "@spellbookx/typescript-config": "workspace:*",
+    "@wnodex/typescript-config": "workspace:*",
     "@types/node": "^25.0.10",
     "rolldown": "1.0.0-rc.1",
     "typescript": "5.9.2"
