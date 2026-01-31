@@ -1,6 +1,6 @@
 {
   "name": "@wnodex/helmet",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": false,
   "description": "wnodex helmet middleware",
   "keywords": [
