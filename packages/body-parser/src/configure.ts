@@ -3,7 +3,7 @@ import express, { type Application } from 'express';
 import { parseBodyParserOptions } from './parse-options.js';
 import { BodyParserOptionsInput } from './schema.js';
 
-export const configureRateLimit = (
+export const configureBodyParsers = (
   app: Application,
   config: BodyParserOptionsInput
 ) => {

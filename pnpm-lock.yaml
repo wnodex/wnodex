@@ -416,13 +416,103 @@ importers:
 
   packages/wnodex:
     dependencies:
+      '@types/body-parser':
+        specifier: ^1.19.6
+        version: 1.19.6
+      '@wnodex/body-parser':
+        specifier: workspace:*
+        version: link:../body-parser
+      '@wnodex/compression':
+        specifier: workspace:*
+        version: link:../compression
+      '@wnodex/cookie-parser':
+        specifier: workspace:*
+        version: link:../cookie-parser
+      '@wnodex/cors':
+        specifier: workspace:*
+        version: link:../cors
+      '@wnodex/errors':
+        specifier: workspace:*
+        version: link:../errors
+      '@wnodex/helmet':
+        specifier: workspace:*
+        version: link:../helmet
+      '@wnodex/hpp':
+        specifier: workspace:*
+        version: link:../hpp
+      '@wnodex/logger':
+        specifier: workspace:*
+        version: link:../logger
+      '@wnodex/passport':
+        specifier: workspace:*
+        version: link:../passport
+      '@wnodex/rate-limit':
+        specifier: workspace:*
+        version: link:../rate-limit
+      '@wnodex/session':
+        specifier: workspace:*
+        version: link:../session
+      body-parser:
+        specifier: ^2.2.2
+        version: 2.2.2
+      cookie-parser:
+        specifier: ^1.4.7
+        version: 1.4.7
+      cors:
+        specifier: ^2.8.6
+        version: 2.8.6
+      express:
+        specifier: ^5.2.1
+        version: 5.2.1
+      express-rate-limit:
+        specifier: ^8.2.1
+        version: 8.2.1(express@5.2.1)
+      express-session:
+        specifier: ^1.19.0
+        version: 1.19.0
+      helmet:
+        specifier: ^8.1.0
+        version: 8.1.0
+      hpp:
+        specifier: ^0.2.3
+        version: 0.2.3
+      passport:
+        specifier: ^0.7.0
+        version: 0.7.0
+      pino:
+        specifier: ^10.3.0
+        version: 10.3.0
+      pino-pretty:
+        specifier: ^13.1.3
+        version: 13.1.3
       zod:
         specifier: ^4.3.6
         version: 4.3.6
     devDependencies:
+      '@types/compression':
+        specifier: ^1.8.1
+        version: 1.8.1
+      '@types/cookie-parser':
+        specifier: ^1.4.10
+        version: 1.4.10(@types/express@5.0.6)
+      '@types/cors':
+        specifier: ^2.8.19
+        version: 2.8.19
+      '@types/express':
+        specifier: ^5.0.6
+        version: 5.0.6
+      '@types/express-session':
+        specifier: ^1.18.2
+        version: 1.18.2
+      '@types/hpp':
+        specifier: ^0.2.7
+        version: 0.2.7
       '@types/node':
         specifier: ^25.0.10
         version: 25.1.0
+      '@types/passport':
+        specifier: ^1.0.17
+        version: 1.0.17
       '@wnodex/typescript-config':
         specifier: workspace:*
         version: link:../../.config/typescript

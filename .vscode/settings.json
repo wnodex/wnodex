@@ -206,6 +206,5 @@
       ".config/lefthook.toml"
     ]
   },
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "exportall.config.folderListener": ["/packages/wnodex/src"]
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

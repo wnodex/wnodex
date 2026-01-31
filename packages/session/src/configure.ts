@@ -5,7 +5,7 @@ import session from 'express-session';
 import { parseSessionOptions } from './parse-options.js';
 import { SessionOptionsInput } from './schema.js';
 
-export const configureRateLimit = (
+export const configureSession = (
   app: Application,
   config: SessionOptionsInput
 ) => {
