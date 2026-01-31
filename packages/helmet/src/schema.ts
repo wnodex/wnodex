@@ -3,7 +3,12 @@ import type { HelmetOptions } from 'helmet';
 import { z } from 'zod';
 
 export const HelmetOptionsSchema = z
-  .union([z.boolean(), z.custom<HelmetOptions>()])
+  .union([
+    z.boolean(),
+    z.custom<HelmetOptions>(
+      (val) => typeof val === 'object' && val !== null && !Array.isArray(val)
+    ),
+  ])
   .optional()
   .default(false);
 

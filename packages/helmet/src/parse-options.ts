@@ -5,7 +5,7 @@ import {
 } from './schema.js';
 
 export const parseHelmetOptions = (
-  options: HelmetOptionsInput
+  options?: HelmetOptionsInput
 ): HelmetOptionsOutput => {
   const result = HelmetOptionsSchema.safeParse(options);
 

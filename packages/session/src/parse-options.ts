@@ -5,7 +5,7 @@ import {
 } from './schema.js';
 
 export const parseSessionOptions = (
-  options: SessionOptionsInput
+  options?: SessionOptionsInput
 ): SessionOptionsOutput => {
   const result = SessionOptionsSchema.safeParse(options);
 

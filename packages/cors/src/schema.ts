@@ -5,7 +5,12 @@ import { z } from 'zod';
 import { DEFAULT_CORS_OPTIONS } from './defaults.js';
 
 export const CorsOptionsSchema = z
-  .union([z.boolean(), z.custom<CorsOptions>()])
+  .union([
+    z.boolean(),
+    z.custom<CorsOptions>(
+      (val) => typeof val === 'object' && val !== null && !Array.isArray(val)
+    ),
+  ])
   .optional()
   .default(DEFAULT_CORS_OPTIONS);
 

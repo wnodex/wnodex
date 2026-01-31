@@ -4,7 +4,9 @@ import {
   HppOptionsSchema,
 } from './schema.js';
 
-export const parseHppOptions = (options: HppOptionsInput): HppOptionsOutput => {
+export const parseHppOptions = (
+  options?: HppOptionsInput
+): HppOptionsOutput => {
   const result = HppOptionsSchema.safeParse(options);
 
   if (!result.success) {

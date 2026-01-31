@@ -5,7 +5,7 @@ import {
 } from './schema.js';
 
 export const parseCompressionOptions = (
-  options: CompressionOptionsInput
+  options?: CompressionOptionsInput
 ): CompressionOptionsOutput => {
   const result = CompressionOptionsSchema.safeParse(options);
 

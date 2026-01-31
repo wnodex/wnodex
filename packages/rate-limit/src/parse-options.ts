@@ -5,7 +5,7 @@ import {
 } from './schema.js';
 
 export const parseRateLimitOptions = (
-  options: RateLimitOptionsInput
+  options?: RateLimitOptionsInput
 ): RateLimitOptionsOutput => {
   const result = RateLimitOptionsSchema.safeParse(options);
 

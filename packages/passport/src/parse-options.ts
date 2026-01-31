@@ -5,7 +5,7 @@ import {
 } from './schema.js';
 
 export const parsePassportOptions = (
-  options: PassportOptionsInput
+  options?: PassportOptionsInput
 ): PassportOptionsOutput => {
   const result = PassportOptionsSchema.safeParse(options);
 

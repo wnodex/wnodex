@@ -5,7 +5,7 @@ import {
 } from './schema.js';
 
 export const parseCookieParserOptions = (
-  options: CookieParserOptionsInput
+  options?: CookieParserOptionsInput
 ): CookieParserOptionsOutput => {
   const result = CookieParserOptionsSchema.safeParse(options);
 

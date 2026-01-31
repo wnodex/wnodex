@@ -5,7 +5,7 @@ import {
 } from './schema.js';
 
 export const parseCorsOptions = (
-  options: CorsOptionsInput
+  options?: CorsOptionsInput
 ): CorsOptionsOutput => {
   const result = CorsOptionsSchema.safeParse(options);
 

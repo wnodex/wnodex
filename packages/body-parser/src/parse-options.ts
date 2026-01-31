@@ -5,7 +5,7 @@ import {
 } from './schema.js';
 
 export const parseBodyParserOptions = (
-  options: BodyParserOptionsInput
+  options?: BodyParserOptionsInput
 ): BodyParserOptionsOutput => {
   const result = BodyParserOptionsSchema.safeParse(options);
 
