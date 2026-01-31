@@ -1,6 +1,6 @@
 {
   "name": "@wnodex/cookie-parser",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": false,
   "description": "A wnodex middleware that integrates cookie-parser to parse request cookies.",
   "keywords": [
