@@ -2,9 +2,15 @@
   "name": "@wnodex/helmet",
   "version": "0.2.1",
   "private": false,
-  "description": "wnodex helmet middleware",
+  "description": "A wnodex middleware that integrates Helmet to secure your application by setting various HTTP headers.",
   "keywords": [
-    "wnodex"
+    "wnodex",
+    "middleware",
+    "helmet",
+    "express",
+    "security",
+    "headers",
+    "csp"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {

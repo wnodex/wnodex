@@ -2,10 +2,14 @@
   "name": "@wnodex/cookie-parser",
   "version": "0.2.1",
   "private": false,
-  "description": "wnodex cookie-parser middleware",
+  "description": "A wnodex middleware that integrates cookie-parser to parse request cookies.",
   "keywords": [
     "wnodex",
-    "cookie-parser"
+    "middleware",
+    "cookie-parser",
+    "express",
+    "cookie",
+    "parser"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {

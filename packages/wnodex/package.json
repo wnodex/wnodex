@@ -2,9 +2,18 @@
   "name": "wnodex",
   "version": "0.2.1",
   "private": false,
-  "description": "Web Node Express: an extensible and robust express.js server class designed for effortless customization and rapid deployment",
+  "description": "An extensible and robust Express.js server framework designed for effortless customization and rapid deployment with sensible defaults.",
   "keywords": [
-    "wnodex"
+    "wnodex",
+    "express",
+    "framework",
+    "typescript",
+    "nodejs",
+    "server",
+    "http",
+    "web",
+    "security",
+    "middleware"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {

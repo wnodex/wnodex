@@ -2,9 +2,14 @@
   "name": "@wnodex/logger",
   "version": "0.2.1",
   "private": false,
-  "description": "wnodex logger",
+  "description": "A pre-configured Pino logger for wnodex applications with pretty-printing for development.",
   "keywords": [
-    "wnodex"
+    "wnodex",
+    "logger",
+    "pino",
+    "pino-pretty",
+    "logging",
+    "json-logger"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {

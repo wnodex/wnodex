@@ -2,9 +2,15 @@
   "name": "@wnodex/rate-limit",
   "version": "0.2.1",
   "private": false,
-  "description": "wnodex rate-limit middleware",
+  "description": "A wnodex middleware that integrates express-rate-limit to protect applications from abuse.",
   "keywords": [
-    "wnodex"
+    "wnodex",
+    "middleware",
+    "rate-limit",
+    "express",
+    "security",
+    "ddos",
+    "brute-force"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {

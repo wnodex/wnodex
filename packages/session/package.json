@@ -2,9 +2,15 @@
   "name": "@wnodex/session",
   "version": "0.2.1",
   "private": false,
-  "description": "wnodex session middleware",
+  "description": "A wnodex middleware that integrates express-session to create and manage user sessions.",
   "keywords": [
-    "wnodex"
+    "wnodex",
+    "middleware",
+    "session",
+    "express",
+    "express-session",
+    "authentication",
+    "cookie"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {

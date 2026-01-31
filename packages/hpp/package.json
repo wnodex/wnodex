@@ -2,9 +2,14 @@
   "name": "@wnodex/hpp",
   "version": "0.2.1",
   "private": false,
-  "description": "wnodex hpp middleware",
+  "description": "A wnodex middleware that integrates hpp to protect against HTTP Parameter Pollution attacks.",
   "keywords": [
-    "wnodex"
+    "wnodex",
+    "middleware",
+    "hpp",
+    "express",
+    "security",
+    "parameter-pollution"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {

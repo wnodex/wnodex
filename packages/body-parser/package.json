@@ -2,9 +2,15 @@
   "name": "@wnodex/body-parser",
   "version": "0.2.1",
   "private": false,
-  "description": "wnodex body-parser middleware",
+  "description": "A wnodex middleware that integrates body-parser to handle JSON and URL-encoded request bodies.",
   "keywords": [
-    "wnodex"
+    "wnodex",
+    "middleware",
+    "body-parser",
+    "express",
+    "json",
+    "urlencoded",
+    "parser"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {

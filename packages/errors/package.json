@@ -2,10 +2,14 @@
   "name": "@wnodex/errors",
   "version": "0.2.1",
   "private": false,
-  "description": "wnodex custom application errors",
+  "description": "Provides custom error classes and a centralized error handler for wnodex applications.",
   "keywords": [
     "wnodex",
-    "errors"
+    "errors",
+    "error-handling",
+    "middleware",
+    "express",
+    "http-error"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {

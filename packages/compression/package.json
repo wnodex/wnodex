@@ -2,9 +2,14 @@
   "name": "@wnodex/compression",
   "version": "0.2.1",
   "private": false,
-  "description": "wnodex compression middleware",
+  "description": "A wnodex middleware that integrates compression to enable gzip compression for responses.",
   "keywords": [
-    "wnodex"
+    "wnodex",
+    "middleware",
+    "compression",
+    "express",
+    "gzip",
+    "performance"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {

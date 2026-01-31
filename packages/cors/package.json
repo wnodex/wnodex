@@ -2,9 +2,14 @@
   "name": "@wnodex/cors",
   "version": "0.2.1",
   "private": false,
-  "description": "wnodex cors middleware",
+  "description": "A wnodex middleware that integrates CORS to enable Cross-Origin Resource Sharing.",
   "keywords": [
-    "wnodex"
+    "wnodex",
+    "middleware",
+    "cors",
+    "express",
+    "security",
+    "origin"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {
