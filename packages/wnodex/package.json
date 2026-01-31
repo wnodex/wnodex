@@ -1,6 +1,6 @@
 {
   "name": "wnodex",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "private": false,
   "description": "Web Node Express: an extensible and robust express.js server class designed for effortless customization and rapid deployment",
   "keywords": [
