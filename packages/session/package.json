@@ -1,6 +1,6 @@
 {
   "name": "@wnodex/session",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "private": false,
   "description": "A wnodex middleware that integrates express-session to create and manage user sessions.",
   "keywords": [

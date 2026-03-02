@@ -1,6 +1,6 @@
 {
   "name": "@wnodex/errors",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "private": false,
   "description": "Provides custom error classes and a centralized error handler for wnodex applications.",
   "keywords": [

@@ -1,6 +1,6 @@
 {
   "name": "@wnodex/hpp",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "private": false,
   "description": "A wnodex middleware that integrates hpp to protect against HTTP Parameter Pollution attacks.",
   "keywords": [

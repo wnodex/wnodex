@@ -1,6 +1,6 @@
 {
   "name": "@wnodex/logger",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "private": false,
   "description": "A pre-configured Pino logger for wnodex applications with pretty-printing for development.",
   "keywords": [

@@ -1,6 +1,6 @@
 {
   "name": "@wnodex/rate-limit",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "private": false,
   "description": "A wnodex middleware that integrates express-rate-limit to protect applications from abuse.",
   "keywords": [

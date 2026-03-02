@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.3.0](https://github.com/wnodex/wnodex/compare/v0.2.2...v0.3.0) (2026-03-02)
+
+### Features
+
+* **react-router:** add react-router package for SSR and static assets ([bd6cdd7](https://github.com/wnodex/wnodex/commit/bd6cdd728c7b16e1a60e73347d1053f129a2b325))
+
 ## [0.2.2](https://github.com/wnodex/wnodex/compare/v0.2.1...v0.2.2) (2026-01-31)
 
 ## [0.2.1](https://github.com/wnodex/wnodex/compare/v0.2.0...v0.2.1) (2026-01-31)
