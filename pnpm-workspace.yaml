@@ -1,4 +1,6 @@
 packages:
-  - ".config/typescript"
-  - "apps/*"
-  - "packages/*"
+  - apps/*
+  - packages/*
+
+onlyBuiltDependencies:
+  - lefthook
