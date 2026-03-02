@@ -1,0 +1,53 @@
+{
+  "name": "@wnodex/react-router",
+  "version": "0.2.2",
+  "private": false,
+  "description": "A wnodex middleware for React Router SSR and static assets integration.",
+  "keywords": [
+    "wnodex",
+    "middleware",
+    "react-router",
+    "express",
+    "ssr",
+    "static"
+  ],
+  "homepage": "https://github.com/wnodex/wnodex#readme",
+  "bugs": {
+    "url": "https://github.com/wnodex/wnodex/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnodex/wnodex.git",
+    "directory": "packages/react-router"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rolldown -c && tsc"
+  },
+  "dependencies": {
+    "@react-router/express": "7.13.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@dcdavidev/tsconfig": "^0.1.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.3",
+    "rolldown": "1.0.0-rc.6",
+    "typescript": "5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
