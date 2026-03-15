@@ -4,47 +4,55 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "fmt": "pnpm dlx prettier --ignore-unknown --write .",
-    "lint": "pnpm dlx eslint --no-warn-ignored --fix .",
-    "lint:fmt": "pnpm run lint && pnpm run fmt",
+    "fmt": "tsx ./scripts/fmt.ts",
+    "lint": "tsx ./scripts/lint.ts",
     "prepare": "lefthook install",
     "release": "LEFTHOOK=\"0\" release-it"
+  },
+  "commitlint": {
+    "extends": [
+      "spellbookx"
+    ]
   },
   "config": {
     "commitizen": {
       "path": "cz-git"
     }
   },
+  "prettier": "prettier-config-spellbookx/base",
   "devDependencies": {
-    "@commitlint/cli": "^20.4.2",
-    "@commitlint/config-conventional": "^20.4.2",
+    "@commitlint/cli": "^20.4.4",
+    "@commitlint/config-conventional": "^20.4.4",
     "@cspell/cspell-types": "^9.7.0",
+    "@dcdavidev/tsconfig": "^0.1.0",
     "@prettier/plugin-xml": "^3.4.2",
-    "@release-it/conventional-changelog": "^10.0.5",
-    "@turbo/gen": "^2.8.12",
+    "@release-it/conventional-changelog": "^10.0.6",
+    "@turbo/gen": "^2.8.17",
+    "@types/node": "^25.5.0",
     "commitizen": "^4.3.1",
     "commitlint-config-spellbookx": "*",
-    "conventional-changelog-conventionalcommits": "^9.2.0",
+    "conventional-changelog-conventionalcommits": "^9.3.0",
     "cspell": "^9.7.0",
-    "cspell-config-spellbookx": "^0.10.1",
-    "eslint": "^10.0.2",
-    "eslint-plugin-spellbookx": "^0.10.1",
-    "lefthook": "^2.1.2",
+    "cspell-config-spellbookx": "^0.11.1",
+    "eslint": "^10.0.3",
+    "eslint-plugin-spellbookx": "^0.11.1",
+    "lefthook": "^2.1.4",
     "prettier": "^3.8.1",
-    "prettier-config-spellbookx": "^0.10.1",
+    "prettier-config-spellbookx": "^0.11.1",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-ini": "^1.3.0",
-    "prettier-plugin-packagejson": "^3.0.0",
+    "prettier-plugin-packagejson": "^3.0.2",
     "prettier-plugin-prisma": "^5.0.0",
     "prettier-plugin-properties": "^0.3.1",
     "prettier-plugin-sh": "^0.18.0",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "prettier-plugin-toml": "^2.0.6",
     "release-it": "^19.2.4",
-    "turbo": "^2.8.12",
+    "tsx": "^4.21.0",
+    "turbo": "^2.8.17",
     "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@10.30.3",
+  "packageManager": "pnpm@10.32.1",
   "engines": {
     "node": ">=18"
   }

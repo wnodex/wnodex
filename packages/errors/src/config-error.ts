@@ -1,5 +1,5 @@
-import { ERROR_CODES } from './error-codes.js';
 import { BaseError } from './base-error.js';
+import { ERROR_CODES } from './error-codes.js';
 
 /**
  * Custom error class for configuration failures.

@@ -1,15 +1,13 @@
 {
-  "name": "@wnodex/cors",
+  "name": "@wnodex/build",
   "version": "0.3.0",
   "private": false,
-  "description": "A wnodex middleware that integrates CORS to enable Cross-Origin Resource Sharing.",
+  "description": "Unified build scripts and utilities for the wnodex ecosystem.",
   "keywords": [
     "wnodex",
-    "middleware",
-    "cors",
-    "express",
-    "security",
-    "origin"
+    "build",
+    "esbuild",
+    "sync"
   ],
   "homepage": "https://github.com/wnodex/wnodex#readme",
   "bugs": {
@@ -18,7 +16,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wnodex/wnodex.git",
-    "directory": "packages/cors"
+    "directory": "packages/build"
   },
   "license": "MIT",
   "type": "module",
@@ -33,18 +31,18 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "bin": {
+    "wnodex-build": "./dist/bin.js"
+  },
   "scripts": {
     "build": "rolldown -c && tsc"
   },
   "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1",
-    "zod": "^4.3.6"
+    "esbuild": "^0.25.0",
+    "sync-directory": "^6.0.4"
   },
   "devDependencies": {
     "@dcdavidev/tsconfig": "^0.1.0",
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
     "@types/node": "^25.5.0",
     "rolldown": "1.0.0-rc.9",
     "typescript": "5.9.3"

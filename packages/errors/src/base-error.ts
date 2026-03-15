@@ -61,7 +61,7 @@ export class BaseError extends Error {
    * Throws a clear error if validation fails, including the original Zod error as the cause.
    * @param input The raw metadata input.
    * @param parentErrorMessage The message of the error being constructed, for improved diagnostics.
-   * @returns {ErrorMetadataOutput} Parsed and validated metadata.
+   * @returns Parsed and validated metadata.
    * @throws {Error} If the metadata does not pass validation.
    * @example
    * this.validateMetadata({ code: 'INVALID', context: { foo: 42 } }, 'Something failed');
@@ -86,7 +86,7 @@ export class BaseError extends Error {
    * Returns a plain object representation of the error,
    * useful for structured logging, serialization, or external error reporting.
    * Nested error causes include their name, message, and stack trace.
-   * @returns {object} A plain, serializable object representing this error.
+   * @returns A plain, serializable object representing this error.
    * @example
    * JSON.stringify(err.toJSON());
    */
