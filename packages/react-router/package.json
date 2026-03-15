@@ -1,6 +1,6 @@
 {
   "name": "@wnodex/react-router",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": false,
   "description": "A wnodex middleware for React Router SSR and static assets integration.",
   "keywords": [

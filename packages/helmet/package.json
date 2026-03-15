@@ -1,6 +1,6 @@
 {
   "name": "@wnodex/helmet",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": false,
   "description": "A wnodex middleware that integrates Helmet to secure your application by setting various HTTP headers.",
   "keywords": [
