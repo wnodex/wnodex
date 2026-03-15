@@ -4,7 +4,7 @@
 
 ### Features
 
-* setup lefthook, cspell, and new build package ([d75c489](https://github.com/wnodex/wnodex/commit/d75c489e019d97f00136beccb74cf75b1519254f))
+- setup lefthook, cspell, and new build package ([d75c489](https://github.com/wnodex/wnodex/commit/d75c489e019d97f00136beccb74cf75b1519254f))
 
 ## [0.3.0](https://github.com/wnodex/wnodex/compare/v0.2.2...v0.3.0) (2026-03-02)
 
