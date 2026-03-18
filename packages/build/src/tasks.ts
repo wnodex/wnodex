@@ -108,9 +108,7 @@ export async function runBuildTasks(config: BuildConfig): Promise<void> {
     }
 
     if (!existsSync(destDir)) {
-      throw new Error(
-        `📂 Error: Destination directory does not exist: ${destDir}`
-      );
+      fs.mkdirSync(destDir, { recursive: true });
     }
 
     if (!existsSync(distDir)) {
