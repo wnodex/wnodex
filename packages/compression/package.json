@@ -1,6 +1,6 @@
 {
   "name": "@wnodex/compression",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "private": false,
   "description": "A wnodex middleware that integrates compression to enable gzip compression for responses.",
   "keywords": [

@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.1](https://github.com/wnodex/wnodex/compare/v0.4.0...v0.4.1) (2026-03-18)
+
+### Bug Fixes
+
+* **build:** ensure sync destination directory exists ([859ad68](https://github.com/wnodex/wnodex/commit/859ad68dce374d31cc11050b67868378c3570a2c))
+
 ## [0.4.0](https://github.com/wnodex/wnodex/compare/v0.3.0...v0.4.0) (2026-03-15)
 
 ### Features
